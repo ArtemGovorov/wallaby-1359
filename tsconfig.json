@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "checkJs": false,
+    "target": "es2015",
+    "module": "es2015",
+    "jsx": "react-native",
+    "outDir": "build",
+    "rootDir": "src",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "moduleResolution": "Node"
+  },
+  "exclude": [
+    "__tests__/**/*.test.ts",
+    "src/__tests__/**/*.test.ts",
+    "index.js",
+    "build",
+    "node_modules"
+  ],
+  "compileOnSave": false
+}
